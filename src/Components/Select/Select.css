@@ -1,0 +1,22 @@
+.select-wrap {
+    margin: 0 0 20px 0;
+  }
+  
+  .select-wrap select{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    width: 200px;
+    background: #724629;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .select-wrap option{
+    font-size: 16px;
+    background-color: #745642;
+  }
+  
+  .select-wrap select option:hover {
+    background-color: #000;
+  }

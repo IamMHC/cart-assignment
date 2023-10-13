@@ -1,0 +1,146 @@
+
+.multi-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+  }
+  
+  .item-price {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+  }
+  
+  .item-text {
+    position: relative;
+  }
+  
+  .item-text h2{
+    margin: 0 0 6px;
+    font-size: 32px;
+  }
+  
+  .text-image {
+    width: 70px;
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+  }
+  
+  .price-detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .price-detail p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .price-detail h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .item-image {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .item-image img {
+    width: 100%;
+    display: block;
+  }
+  
+  .add-price {
+    display: flex;
+    margin: 0 -15px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  
+  .add-price p{
+    margin: 0;
+    padding: 0 15px;
+    font-size: 24px;
+  }
+  
+  .price-text span{
+    display: block;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+  }
+  .button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: #724629;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 767px) {
+    .item-price {
+        width: 300px;
+    }
+  
+    .item-image {
+        width: 150px;
+    }
+  
+    .item-text h2 {
+        font-size: 20px;
+    }
+  
+    .price-detail h2 {
+        font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .item-price {
+        width: 200px;
+    }
+  
+    .item-image {
+        width: 100px;
+    }
+  
+    .item-text {
+        padding: 0 0 0 20px;
+    }
+  
+    .item-text h2 {
+        font-size: 13px;
+        margin: 0;
+    }
+  
+    .price-detail h2 {
+        font-size: 10px;
+    }
+  
+    .add-price {
+        margin: 0 -8px;
+    }
+  
+    .add-price p{
+        padding: 0 8px;
+        font-size: 16px;
+    }
+  
+    .price-text span {
+        font-size: 8px;
+        margin: 0;
+    }
+  
+    
+  }
+  
+  

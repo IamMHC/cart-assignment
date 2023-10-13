@@ -1,0 +1,41 @@
+.price-wrap {
+    display: flex;
+    flex-direction: flex-end;
+    margin: 0 6px;
+    flex-direction: row-reverse;
+  }
+  
+  .price-wrap p{
+    margin: 0;
+    padding: 0 6px;
+    font-size: 28px;
+  }
+  
+  .price-wrap h2{
+    margin: 0;
+    padding: 0 6px;
+    font-size: 28px;
+  }
+  .total-price {
+    border-top: 2px solid #000;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 576px) {
+   
+    .total-price {
+        width: 100px;
+    }
+  
+    .total-price h2{
+        font-size: 18px;
+    }
+  
+    .total-price p{
+        font-size: 16px;
+        padding: 0;
+    }
+  }
